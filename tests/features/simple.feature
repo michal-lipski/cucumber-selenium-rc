@@ -7,6 +7,7 @@ Feature: Spring mvc know how
     When I press "GET /simple"
     Then I should see "Hello world!"
 
+
   Scenario: Forms validation
     Given I am on the "Forms" page
     When I submit
